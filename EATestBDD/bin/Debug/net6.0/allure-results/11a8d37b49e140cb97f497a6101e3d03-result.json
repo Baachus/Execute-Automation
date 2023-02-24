@@ -1,0 +1,134 @@
+{
+  "uuid": "2b8b3b6839d943b6879bcfa00647bcac",
+  "historyId": "Create product and verify the details",
+  "fullName": "Create product and verify the details",
+  "labels": [
+    {
+      "name": "thread",
+      "value": ".NET Long Running Task"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-3HHOLVA"
+    },
+    {
+      "name": "feature",
+      "value": "Product"
+    },
+    {
+      "name": "tag",
+      "value": "mytag"
+    }
+  ],
+  "links": [],
+  "name": "Create product and verify the details",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I click the Product menu",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1676050090485,
+      "stop": 1676050092377
+    },
+    {
+      "name": "And  I click the \"Create New\" link",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1676050092378,
+      "stop": 1676050092528
+    },
+    {
+      "name": "And  I create a product with the following details",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "table",
+          "source": "e9954f4c26bb489fb46f22c154a6902b-attachment.csv",
+          "type": "text/csv"
+        }
+      ],
+      "parameters": [],
+      "start": 1676050092532,
+      "stop": 1676050093083
+    },
+    {
+      "name": "When  I click the Details link of the newly created product",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1676050093083,
+      "stop": 1676050094399
+    },
+    {
+      "name": "Then  I see all the product details are created as expected",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1676050094399,
+      "stop": 1676050094526
+    },
+    {
+      "name": "And  I delete the product Headphones for cleanup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1676050094526,
+      "stop": 1676050095884
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1676050090475,
+  "stop": 1676050095890
+}

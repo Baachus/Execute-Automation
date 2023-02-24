@@ -1,0 +1,161 @@
+{
+  "uuid": "42b513e2e85c4baabe6a36a327b6c1d3",
+  "historyId": "Create product and verify the details",
+  "fullName": "Create product and verify the details",
+  "labels": [
+    {
+      "name": "thread",
+      "value": ".NET Long Running Task"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-3HHOLVA"
+    },
+    {
+      "name": "feature",
+      "value": "Product"
+    },
+    {
+      "name": "tag",
+      "value": "mytag"
+    },
+    {
+      "name": "tag",
+      "value": "retry(2)"
+    }
+  ],
+  "links": [],
+  "name": "Create product and verify the details",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "stale element reference: element is not attached to the page document\n  (Session info: chrome=110.0.5481.104)",
+    "trace": "OpenQA.Selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document\n  (Session info: chrome=110.0.5481.104)\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.get_Text()\r\n   at EATestFramework.Extensions.HtmlTableExtension.<>c__DisplayClass2_0.<PerformActionOnCell>b__2(IWebElement c) in C:\\Users\\Baachus\\Desktop\\Files\\Automation\\Execute Automation\\EATestFramework\\Extensions\\HtmlTableExtension.cs:line 101\r\n   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()\r\n   at System.Linq.Enumerable.TryGetSingle[TSource](IEnumerable`1 source, Boolean& found)\r\n   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)\r\n   at EATestFramework.Extensions.HtmlTableExtension.PerformActionOnCell(IWebElement element, String targetColumnIndex, String refColumnName, String refColumnValue, String controlToOperate) in C:\\Users\\Baachus\\Desktop\\Files\\Automation\\Execute Automation\\EATestFramework\\Extensions\\HtmlTableExtension.cs:line 100\r\n   at EATestBDD.Pages.HomePage.PerformClickOnSpecialValue(String name, String operation) in C:\\Users\\Baachus\\Desktop\\Files\\Automation\\Execute Automation\\EATestBDD\\Pages\\HomePage.cs:line 26\r\n   at EATestBDD.StepDefinitions.ProductSteps.WhenIClickTheDetailsLinkOfTheNewlyCreatedProduct(String operation) in C:\\Users\\Baachus\\Desktop\\Files\\Automation\\Execute Automation\\EATestBDD\\StepDefinitions\\ProductSteps.cs:line 59\r\n   at InvokeStub_Action`2.Invoke(Object, Object, IntPtr*)\r\n   at System.Reflection.MethodInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)\r\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I cleanup the following data",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "table",
+          "source": "46f85fd5e24041c8ae15091807f6ae10-attachment.csv",
+          "type": "text/csv"
+        }
+      ],
+      "parameters": [],
+      "start": 1677168863427,
+      "stop": 1677168863442
+    },
+    {
+      "name": "Given  I click the Product menu",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1677168863442,
+      "stop": 1677168864694
+    },
+    {
+      "name": "And  I click the \"Create New\" link",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1677168864694,
+      "stop": 1677168864785
+    },
+    {
+      "name": "And  I create a product with the following details",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "table",
+          "source": "1d180d8025424641bbed35e128cf6dda-attachment.csv",
+          "type": "text/csv"
+        }
+      ],
+      "parameters": [],
+      "start": 1677168864785,
+      "stop": 1677168865151
+    },
+    {
+      "name": "When  I click the Details link of the newly created product",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1677168865151,
+      "stop": 1677168866348
+    },
+    {
+      "name": "Then  I see all the product details are created as expected",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1677168866349,
+      "stop": 1677168866350
+    },
+    {
+      "name": "And  I delete the product Headphones for cleanup",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1677168866353,
+      "stop": 1677168866353
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1677168863427,
+  "stop": 1677168866354
+}

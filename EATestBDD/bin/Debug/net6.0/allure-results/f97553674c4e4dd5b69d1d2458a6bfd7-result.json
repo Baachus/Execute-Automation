@@ -1,0 +1,155 @@
+{
+  "uuid": "af654749f276453f8cf77e423c5ec94c",
+  "historyId": "Edit Product and verify its updated",
+  "fullName": "Edit Product and verify its updated",
+  "labels": [
+    {
+      "name": "thread",
+      "value": ".NET Long Running Task"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-3HHOLVA"
+    },
+    {
+      "name": "feature",
+      "value": "Product"
+    },
+    {
+      "name": "tag",
+      "value": "mytag"
+    }
+  ],
+  "links": [],
+  "name": "Edit Product and verify its updated",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I ensure the following product is created",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "table",
+          "source": "14eddf7692ec454181bc58542a2d7969-attachment.csv",
+          "type": "text/csv"
+        }
+      ],
+      "parameters": [],
+      "start": 1676050095998,
+      "stop": 1676050096071
+    },
+    {
+      "name": "And  I click the Product menu",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1676050096071,
+      "stop": 1676050097561
+    },
+    {
+      "name": "When  I click the Edit link of the newly created product",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1676050097561,
+      "stop": 1676050098772
+    },
+    {
+      "name": "And  I edit the product details with the following",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "table",
+          "source": "4711689342bb4135be885940e1cb554c-attachment.csv",
+          "type": "text/csv"
+        }
+      ],
+      "parameters": [],
+      "start": 1676050098772,
+      "stop": 1676050099260
+    },
+    {
+      "name": "And  I click the Details link of the newly created product",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1676050099260,
+      "stop": 1676050100540
+    },
+    {
+      "name": "Then  I see all the product details are created as expected",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1676050100540,
+      "stop": 1676050100612
+    },
+    {
+      "name": "And  I delete the product Monitor for cleanup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1676050100612,
+      "stop": 1676050100627
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1676050095998,
+  "stop": 1676050100627
+}

@@ -1,0 +1,180 @@
+{
+  "uuid": "c02263ab30b9489e9b244759c1a9731c",
+  "historyId": "Edit Product and verify its updated",
+  "fullName": "Edit Product and verify its updated",
+  "labels": [
+    {
+      "name": "thread",
+      "value": ".NET Long Running Task"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-3HHOLVA"
+    },
+    {
+      "name": "feature",
+      "value": "Product"
+    },
+    {
+      "name": "tag",
+      "value": "mytag"
+    },
+    {
+      "name": "tag",
+      "value": "retry(2)"
+    }
+  ],
+  "links": [],
+  "name": "Edit Product and verify its updated",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I cleanup the following data",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "table",
+          "source": "6a91cf8ad5e645e7a48c50737711d6d1-attachment.csv",
+          "type": "text/csv"
+        }
+      ],
+      "parameters": [],
+      "start": 1676058610788,
+      "stop": 1676058610868
+    },
+    {
+      "name": "Given  I ensure the following product is created",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "table",
+          "source": "9d47b7b98e7a434a80ed5ee9825649ac-attachment.csv",
+          "type": "text/csv"
+        }
+      ],
+      "parameters": [],
+      "start": 1676058610868,
+      "stop": 1676058610919
+    },
+    {
+      "name": "And  I click the Product menu",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1676058610919,
+      "stop": 1676058612594
+    },
+    {
+      "name": "When  I click the Edit link of the newly created product",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1676058612594,
+      "stop": 1676058613836
+    },
+    {
+      "name": "And  I edit the product details with the following",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "table",
+          "source": "efa0cdbee4544ee9872b47d0f0af7efc-attachment.csv",
+          "type": "text/csv"
+        }
+      ],
+      "parameters": [],
+      "start": 1676058613836,
+      "stop": 1676058614272
+    },
+    {
+      "name": "And  I click the Details link of the newly created product",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1676058614273,
+      "stop": 1676058615556
+    },
+    {
+      "name": "Then  I see all the product details are created as expected",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1676058615556,
+      "stop": 1676058615679
+    },
+    {
+      "name": "And  I delete the product Monitor for cleanup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1676058615679,
+      "stop": 1676058615690
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1676058610788,
+  "stop": 1676058615691
+}

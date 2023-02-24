@@ -1,0 +1,15 @@
+C:\Users\Baachus\Desktop\Files\Automation\Execute Automation\ConcreteClassProblem\ConcreteClassProblem\bin\Debug\net6.0\ConcreteClassProblem.exe
+C:\Users\Baachus\Desktop\Files\Automation\Execute Automation\ConcreteClassProblem\ConcreteClassProblem\bin\Debug\net6.0\ConcreteClassProblem.deps.json
+C:\Users\Baachus\Desktop\Files\Automation\Execute Automation\ConcreteClassProblem\ConcreteClassProblem\bin\Debug\net6.0\ConcreteClassProblem.runtimeconfig.json
+C:\Users\Baachus\Desktop\Files\Automation\Execute Automation\ConcreteClassProblem\ConcreteClassProblem\bin\Debug\net6.0\ConcreteClassProblem.dll
+C:\Users\Baachus\Desktop\Files\Automation\Execute Automation\ConcreteClassProblem\ConcreteClassProblem\bin\Debug\net6.0\ConcreteClassProblem.pdb
+C:\Users\Baachus\Desktop\Files\Automation\Execute Automation\ConcreteClassProblem\ConcreteClassProblem\obj\Debug\net6.0\ConcreteClassProblem.csproj.AssemblyReference.cache
+C:\Users\Baachus\Desktop\Files\Automation\Execute Automation\ConcreteClassProblem\ConcreteClassProblem\obj\Debug\net6.0\ConcreteClassProblem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Baachus\Desktop\Files\Automation\Execute Automation\ConcreteClassProblem\ConcreteClassProblem\obj\Debug\net6.0\ConcreteClassProblem.AssemblyInfoInputs.cache
+C:\Users\Baachus\Desktop\Files\Automation\Execute Automation\ConcreteClassProblem\ConcreteClassProblem\obj\Debug\net6.0\ConcreteClassProblem.AssemblyInfo.cs
+C:\Users\Baachus\Desktop\Files\Automation\Execute Automation\ConcreteClassProblem\ConcreteClassProblem\obj\Debug\net6.0\ConcreteClassProblem.csproj.CoreCompileInputs.cache
+C:\Users\Baachus\Desktop\Files\Automation\Execute Automation\ConcreteClassProblem\ConcreteClassProblem\obj\Debug\net6.0\ConcreteClassProblem.dll
+C:\Users\Baachus\Desktop\Files\Automation\Execute Automation\ConcreteClassProblem\ConcreteClassProblem\obj\Debug\net6.0\refint\ConcreteClassProblem.dll
+C:\Users\Baachus\Desktop\Files\Automation\Execute Automation\ConcreteClassProblem\ConcreteClassProblem\obj\Debug\net6.0\ConcreteClassProblem.pdb
+C:\Users\Baachus\Desktop\Files\Automation\Execute Automation\ConcreteClassProblem\ConcreteClassProblem\obj\Debug\net6.0\ConcreteClassProblem.genruntimeconfig.cache
+C:\Users\Baachus\Desktop\Files\Automation\Execute Automation\ConcreteClassProblem\ConcreteClassProblem\obj\Debug\net6.0\ref\ConcreteClassProblem.dll

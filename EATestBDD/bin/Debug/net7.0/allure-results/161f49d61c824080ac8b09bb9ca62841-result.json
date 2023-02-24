@@ -1,0 +1,161 @@
+{
+  "uuid": "e68ea054bfc94df2917c619bf2436b53",
+  "historyId": "Create product and verify the details",
+  "fullName": "Create product and verify the details",
+  "labels": [
+    {
+      "name": "thread",
+      "value": ".NET Long Running Task"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-3HHOLVA"
+    },
+    {
+      "name": "feature",
+      "value": "Product"
+    },
+    {
+      "name": "tag",
+      "value": "mytag"
+    },
+    {
+      "name": "tag",
+      "value": "retry(2)"
+    }
+  ],
+  "links": [],
+  "name": "Create product and verify the details",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Value cannot be null. (Parameter 'entity')",
+    "trace": "System.ArgumentNullException: Value cannot be null. (Parameter 'entity')\r\n   at Microsoft.EntityFrameworkCore.Utilities.Check.NotNull[T](T value, String parameterName)\r\n   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Remove(TEntity entity)\r\n   at ProductAPI.Repository.ProductRepository.DeleteProduct(String productName) in C:\\Users\\Baachus\\Desktop\\Files\\Automation\\Execute Automation\\ProductAPI\\Repository\\ProductRepository.cs:line 67\r\n   at EATestBDD.StepDefinitions.ReusableSteps.ThenIDeleteTheProductHeadphonesForCleanup(String productName) in C:\\Users\\Baachus\\Desktop\\Files\\Automation\\Execute Automation\\EATestBDD\\StepDefinitions\\ReusableSteps.cs:line 20\r\n   at InvokeStub_Action`2.Invoke(Object, Object, IntPtr*)\r\n   at System.Reflection.MethodInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)\r\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I cleanup the following data",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "table",
+          "source": "fd20782136d4434b98ab9ac828751319-attachment.csv",
+          "type": "text/csv"
+        }
+      ],
+      "parameters": [],
+      "start": 1677168859453,
+      "stop": 1677168860255
+    },
+    {
+      "name": "Given  I click the Product menu",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1677168860260,
+      "stop": 1677168861689
+    },
+    {
+      "name": "And  I click the \"Create New\" link",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1677168861689,
+      "stop": 1677168861777
+    },
+    {
+      "name": "And  I create a product with the following details",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "table",
+          "source": "cbcf0f542e394cdbb5e4b918d660df1d-attachment.csv",
+          "type": "text/csv"
+        }
+      ],
+      "parameters": [],
+      "start": 1677168861778,
+      "stop": 1677168862233
+    },
+    {
+      "name": "When  I click the Details link of the newly created product",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1677168862233,
+      "stop": 1677168863234
+    },
+    {
+      "name": "Then  I see all the product details are created as expected",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1677168863235,
+      "stop": 1677168863335
+    },
+    {
+      "name": "And  I delete the product Headphones for cleanup",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1677168863335,
+      "stop": 1677168863347
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1677168859444,
+  "stop": 1677168863352
+}

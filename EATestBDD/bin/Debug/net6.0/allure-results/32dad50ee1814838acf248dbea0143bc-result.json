@@ -1,0 +1,140 @@
+{
+  "uuid": "28c247762ab54c4494a19b200dbf0f6c",
+  "historyId": "Create product and verify the details",
+  "fullName": "Create product and verify the details",
+  "labels": [
+    {
+      "name": "thread",
+      "value": ".NET Long Running Task"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-3HHOLVA"
+    },
+    {
+      "name": "feature",
+      "value": "Product"
+    },
+    {
+      "name": "tag",
+      "value": "mytag"
+    },
+    {
+      "name": "tag",
+      "value": "retry(5)"
+    }
+  ],
+  "links": [],
+  "name": "Create product and verify the details",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#Name\"}\n  (Session info: chrome=110.0.5481.78)",
+    "trace": "OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#Name\"}\n  (Session info: chrome=110.0.5481.78)\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at EATestBDD.Pages.ProductPage.get_txtName() in C:\\Users\\Baachus\\Desktop\\Files\\Automation\\Execute Automation\\EAAutomationSuite\\EATestBDD\\Pages\\ProductPage.cs:line 16\r\n   at EATestBDD.Pages.ProductPage.GetProductDetails() in C:\\Users\\Baachus\\Desktop\\Files\\Automation\\Execute Automation\\EAAutomationSuite\\EATestBDD\\Pages\\ProductPage.cs:line 34\r\n   at EATestBDD.StepDefinitions.ProductSteps.ThenISeeAllTheProductDetailsAreCreatedAsExpected() in C:\\Users\\Baachus\\Desktop\\Files\\Automation\\Execute Automation\\EAAutomationSuite\\EATestBDD\\StepDefinitions\\ProductSteps.cs:line 67\r\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I click the Product menu",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1676050454422,
+      "stop": 1676050455888
+    },
+    {
+      "name": "And  I click the \"Create New\" link",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1676050455888,
+      "stop": 1676050456014
+    },
+    {
+      "name": "And  I create a product with the following details",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "table",
+          "source": "b3196bc70dec430fa642162d01a30f6b-attachment.csv",
+          "type": "text/csv"
+        }
+      ],
+      "parameters": [],
+      "start": 1676050456014,
+      "stop": 1676050456482
+    },
+    {
+      "name": "When  I click the Detailssss link of the newly created product",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1676050456482,
+      "stop": 1676050458329
+    },
+    {
+      "name": "Then  I see all the product details are created as expected",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1676050458329,
+      "stop": 1676050458337
+    },
+    {
+      "name": "And  I delete the product Headphones for cleanup",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1676050458337,
+      "stop": 1676050458337
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1676050454422,
+  "stop": 1676050458338
+}

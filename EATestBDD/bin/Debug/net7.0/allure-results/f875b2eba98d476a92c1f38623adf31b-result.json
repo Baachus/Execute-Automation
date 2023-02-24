@@ -1,0 +1,161 @@
+{
+  "uuid": "7324134d4ddb4253b87af83db82bb708",
+  "historyId": "Create product and verify the details",
+  "fullName": "Create product and verify the details",
+  "labels": [
+    {
+      "name": "thread",
+      "value": ".NET Long Running Task"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-3HHOLVA"
+    },
+    {
+      "name": "feature",
+      "value": "Product"
+    },
+    {
+      "name": "tag",
+      "value": "mytag"
+    },
+    {
+      "name": "tag",
+      "value": "retry(2)"
+    }
+  ],
+  "links": [],
+  "name": "Create product and verify the details",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "An unknown exception was encountered sending an HTTP request to the remote WebDriver server for URL http://localhost:9078/session/fa20f970b2b89e63e3bdd6d4510cd0a9/url. The exception message was: An error occurred while sending the request. -> An error occurred while sending the request. -> Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host.. -> An existing connection was forcibly closed by the remote host.",
+    "trace": "OpenQA.Selenium.WebDriverException: An unknown exception was encountered sending an HTTP request to the remote WebDriver server for URL http://localhost:9078/session/fa20f970b2b89e63e3bdd6d4510cd0a9/url. The exception message was: An error occurred while sending the request.\r\n ---> System.Net.Http.HttpRequestException: An error occurred while sending the request.\r\n ---> System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..\r\n ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.\r\n   --- End of inner exception stack trace ---\r\n   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)\r\n   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)\r\n   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)\r\n   --- End of inner exception stack trace ---\r\n   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)\r\n   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)\r\n   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)\r\n   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)\r\n   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)\r\n   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)\r\n   --- End of inner exception stack trace ---\r\n   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)\r\n   at OpenQA.Selenium.Remote.DriverServiceCommandExecutor.Execute(Command commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.set_Url(String value)\r\n   at OpenQA.Selenium.Navigator.GoToUrl(Uri url)\r\n   at EATestFramework.Driver.DriverFixture..ctor(TestSettings testSettings, IBrowserDriver browserDriver) in C:\\Users\\Baachus\\Desktop\\Files\\Automation\\Execute Automation\\EATestFramework\\Driver\\DriverFixture.cs:line 32\r\n   at ResolveService(ILEmitResolverBuilderRuntimeContext, ServiceProviderEngineScope)\r\n   at ResolveService(ILEmitResolverBuilderRuntimeContext, ServiceProviderEngineScope)\r\n   at ResolveService(ILEmitResolverBuilderRuntimeContext, ServiceProviderEngineScope)\r\n   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)\r\n   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)\r\n   at SolidToken.SpecFlow.DependencyInjection.DependencyInjectionTestObjectResolver.ResolveBindingInstance(Type bindingType, IObjectContainer container)\r\n   at lambda_method69(Closure, IContextManager)\r\n   at InvokeStub_Action`1.Invoke(Object, Object, IntPtr*)\r\n   at System.Reflection.MethodInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)\r\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I cleanup the following data",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "table",
+          "source": "4e015ab242964814b582c2dc79042b3d-attachment.csv",
+          "type": "text/csv"
+        }
+      ],
+      "parameters": [],
+      "start": 1677169326012,
+      "stop": 1677169326026
+    },
+    {
+      "name": "Given  I click the Product menu",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1677169326026,
+      "stop": 1677169328861
+    },
+    {
+      "name": "And  I click the \"Create New\" link",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1677169328862,
+      "stop": 1677169328862
+    },
+    {
+      "name": "And  I create a product with the following details",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "table",
+          "source": "ff05c0e84149422bba2bc3c72f44469c-attachment.csv",
+          "type": "text/csv"
+        }
+      ],
+      "parameters": [],
+      "start": 1677169328864,
+      "stop": 1677169328865
+    },
+    {
+      "name": "When  I click the Details link of the newly created product",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1677169328865,
+      "stop": 1677169328865
+    },
+    {
+      "name": "Then  I see all the product details are created as expected",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1677169328865,
+      "stop": 1677169328865
+    },
+    {
+      "name": "And  I delete the product Headphones for cleanup",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1677169328865,
+      "stop": 1677169328865
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1677169326012,
+  "stop": 1677169328866
+}
