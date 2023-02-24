@@ -9,7 +9,7 @@ cd "$(dirname "$0")/.."
 
 docker-compose -p "$project" build
 
-docker-compose -p "$project" up -d ea_api ea_webapp db selenium-hub node-docker
+docker-compose -p "$project" up -d ea_api ea_webapp db selenium-hub firefox chrome edge
 docker-compose -p "$project" up --no-deps ea_test
 
 exit_code=$(docker inspect ea_test -f '{{.State.ExitCode}}')
