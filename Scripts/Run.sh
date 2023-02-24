@@ -14,7 +14,7 @@ docker-compose -p "$project" up --no-deps ea_test
 
 exit_code=$(docker inspect ea_test -f '{{.State.ExitCode}}')
 
-if[ $exit_code -ne 0 ]; then
+if[ $exit_code -eq 0 ]; then
     exit $exit_code
 else
     echo "Test failed"
