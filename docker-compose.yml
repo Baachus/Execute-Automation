@@ -10,7 +10,7 @@ services:
     ports:
       - 5010:8001
     depends_on: 
-      - scoob_db
+      - db
     networks:
       - ea_network
 
